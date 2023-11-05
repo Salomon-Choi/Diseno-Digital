@@ -9,7 +9,6 @@ function encontrarDuplicados(n) {
     let respuesta=[]
     let repite = false
     for (let i= 0; i< n.length; i++){
-        console.log(n[i])
         for(let j=0; j<n.length; j++){
             if(i!=j){
                 if(n[i]==n[j]){
@@ -27,4 +26,5 @@ function encontrarDuplicados(n) {
 
    }
 
+console.log(n)
 encontrarDuplicados(n)

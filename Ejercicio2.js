@@ -23,6 +23,7 @@ function calcularPromedioNotas(estudiantes) {
         respuesta.push({Nombre: estudiantes[i].nombre, Promedio:promedio/re} )
 
     }
+    console.log('Los promedios de los alumnos son:')
     console.log(respuesta)
    }
 

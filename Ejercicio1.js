@@ -15,5 +15,6 @@ function contarPalabras(texto) {
     console.log('Hay '+res+' palabras en total.')  
 }
 
-const texto = '! hola mundo eh!'
+const texto = '! hola mundo ?'
+console.log(texto)
 contarPalabras(texto);
